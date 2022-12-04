@@ -8,7 +8,7 @@ import org.example.ports.inbounds.EventListen;
 public class VoteEventListener {
 
     /*
-    * This is the class to import the listener toll such as Kafka, Rabbit etc.
+    * This is the class to import the listener tool such as Kafka, Rabbit etc.
     * */
     private final EventListen voteEventListen;
 

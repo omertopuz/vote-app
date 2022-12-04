@@ -1,14 +1,17 @@
 # vote-api
-This is a rest api to send vote and show results for the election
+This is the repository created for the article published in
+https://medium.com/@omertopuz7/hexagonal-architecture-with-spring-boot-4f960f736391
 
 ## Objective
 This repository provides an example for Hexagonal architecture
+<br>Basically, it exposes a rest api to send vote and show results for the election
+
 
 ## Overview
 There are some assumptions for the sake of simplicity
 * Voter or user info is fetched from an external service and stubbed in the implementation
 * Election info fetched from an external service and stubbed in the implementation
-  * There are  elections registered
+  * There are 2 elections registered
     * electionId: 1 (it is the valid and current election that is available for request)
     * electionId: 2 (it is an expired election)
 * Event publishing not implemented
