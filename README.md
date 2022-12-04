@@ -36,7 +36,8 @@ There are some assumptions for the sake of simplicity
 * Summary of set up: Assuming that docker has already been installed in your local machine, 
 just clone the repository into a folder than run the command below 
 
-```` docker run . ````
+```` docker build -t vote-app-image . ````
+```` docker run -d --name vote_app -p 9081:9081 vote-app-image:latest ````
 
 #### Running by IDE
 * Use your favorite IDE and hit the run button
